@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>3D Module</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="1.ico">
+    <script>
+        document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) { //Alt+c, Alt+v will also be disabled sadly.
+                alert('not allowed');
+            }
+            return false;
+        };
+
+    </script>
+</head>
+
+<body oncontextmenu="return false">
+
+    <div class="box">
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="intro">
+        <h3>Designed By : Ali Jafari</h3>
+        <h3>Email : alijafari.official@yahoo.com</h3>
+    </div>
+</body>
+
+</html>
