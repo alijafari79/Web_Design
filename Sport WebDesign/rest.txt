@@ -1,0 +1,87 @@
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: #011;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+.sp{
+	width: 30px;
+	height: 5px;
+	background-color: #FFCE00;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.smenu{
+		padding: 10px 20px 10px 10px;
+		cursor: pointer;
+}
+.showcase{
+	background: url(../images/3.jpg) center center no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+.gray{
+	background-color: rgb(0,0,0,.45);
+	width: 100%;
+	height: 100%;
+	color: #ddd;
+	position: relative;
+}
+.showcase input{
+	width: 450px;
+	height: 40px;
+	border-radius: 20px;
+	padding-left: 20px;
+	border: 0;
+	outline: none;
+	box-shadow: inset 0 0 10px #333;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.showcase h1{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 40px;
+}
+
+
+
+
+
+
+..................................................................................................
+
+
+
+<div class="showcase">
+		<div class="gray">
+			<div>
+				<h1>Your web Presence</h1>
+			</div>
+			<div class="search">
+				<input type="text" placeholder="Search...">
+			</div>
+		</div>
+	</div>
+	<div class="middle">
+		<div class="content">
+			<h2>Summer Class</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quam cupiditate eum quo, laborum ipsum. Soluta non facilis, quisquam earum veritatis explicabo deserunt consequuntur! Rem itaque est numquam ab neque!</p>
+			<a href="btn">Inroll</a>
+		</div>
+	</div>
+	<div class="gallery">
+		<div class="img img1"></div>
+		<div class="img img2"></div>
+		<div class="img img3"></div>
+	</div>
+	<footer>
+			<h3>Designed By : Ali Jafari & Nima Samadi</h3>
+	</footer>
